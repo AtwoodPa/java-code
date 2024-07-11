@@ -1,6 +1,8 @@
 package com.oi;
 
 import java.io.*;
+import java.nio.MappedByteBuffer;
+import java.nio.channels.FileChannel;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.stream.Stream;
@@ -23,7 +25,7 @@ public class ReadLargeFile {
 //        } catch (IOException e) {
 //            e.printStackTrace();
 //        }
-        testFileInputStreamTime();
+        testFileChannelTime();
     }
 
     // 计算Files.lines读取文件的耗时方法 => 耗时：1850ms
@@ -63,6 +65,23 @@ public class ReadLargeFile {
             int len;
             while ((len = bis.read(buffer)) != -1) {
                 System.out.println("读取了" + len + "字节");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        long end = System.currentTimeMillis();
+        System.out.printf("耗时：%dms\n", end - start);
+    }
+    // 计算使用 FileChannel 和 MappedByteBuffer 读取大文件 的耗时方法 => 耗时：44373ms
+    public static void testFileChannelTime() {
+        String path = "/Library/PP/Java/github/java-code/files/largefile.txt";
+        long start = System.currentTimeMillis();
+        try(RandomAccessFile raf = new RandomAccessFile(path, "r")) {
+            FileChannel channel = raf.getChannel();
+            MappedByteBuffer buffer = channel.map(FileChannel.MapMode.READ_ONLY, 0, channel.size());
+            // 遍历buffer
+            for (int i = 0; i < buffer.limit(); i++) {
+                buffer.get(i);  // 模拟读取操作
             }
         } catch (IOException e) {
             e.printStackTrace();

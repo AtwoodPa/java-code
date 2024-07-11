@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fcc75f1-c350-4f61-b16d-71dd7b47e9c1" name="Changes" comment="NewFeature: Java语言基础面试题模块搭建">
-      <change afterPath="$PROJECT_DIR$/files/largefile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base02-io/src/main/java/com/oi/ReadLargeFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/AnonymousInnerClassThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/ExecutorServiceThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/LambdaThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base02-io/src/main/java/com/oi/ReadLargeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base02-io/src/main/java/com/oi/ReadLargeFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base02-io/target/classes/com/oi/ReadLargeFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-base02-io/target/classes/com/oi/ReadLargeFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,18 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AtwoodPa"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AtwoodPa&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/AtwoodPa/java-code.git",
-    "accountId": "0e81c308-c2de-4267-b9e1-960d5f66a0ca"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AtwoodPa/java-code.git&quot;,
+    &quot;accountId&quot;: &quot;0e81c308-c2de-4267-b9e1-960d5f66a0ca&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -45,9 +51,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2j548UiIZ7odZXxtHUMvzppAxXU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,6 +61,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnonymousInnerClassThread.executor": "Run",
+    "Application.ExecutorServiceThread.executor": "Run",
+    "Application.MyRunnable.executor": "Run",
+    "Application.MyThread.executor": "Run",
     "Application.ReadLargeFile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -79,7 +89,59 @@
       <recent name="$PROJECT_DIR$/files" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ExecutorServiceThread">
+    <configuration name="AnonymousInnerClassThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oi.example1.AnonymousInnerClassThread" />
+      <module name="java-base03-multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oi.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExecutorServiceThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oi.example1.ExecutorServiceThread" />
+      <module name="java-base03-multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oi.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oi.example1.MyRunnable" />
+      <module name="java-base03-multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oi.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oi.example1.MyThread" />
+      <module name="java-base03-multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oi.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadLargeFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.oi.ReadLargeFile" />
       <module name="java-base02-io" />
@@ -95,6 +157,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutorServiceThread" />
+        <item itemvalue="Application.AnonymousInnerClassThread" />
+        <item itemvalue="Application.MyRunnable" />
+        <item itemvalue="Application.MyThread" />
         <item itemvalue="Application.ReadLargeFile" />
       </list>
     </recent_temporary>
@@ -116,6 +182,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720663445057</updated>
       <workItem from="1720663446775" duration="1520000" />
+      <workItem from="1720668683938" duration="5273000" />
     </task>
     <task id="LOCAL-00001" summary="NewFeature: Java语言基础面试题模块搭建">
       <option name="closed" value="true" />
