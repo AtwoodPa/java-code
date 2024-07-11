@@ -7,11 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="java-base02-io" />
+        <module name="java-base04-jvm" />
         <module name="java-base00-basis" />
         <module name="java-base01-collect" />
         <module name="java-base03-multithread" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
