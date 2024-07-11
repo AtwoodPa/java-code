@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fcc75f1-c350-4f61-b16d-71dd7b47e9c1" name="Changes" comment="NewFeature: Java语言基础面试题模块搭建">
-      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/AnonymousInnerClassThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/ExecutorServiceThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/LambdaThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/MyThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base02-io/src/main/java/com/oi/ReadLargeFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-base02-io/src/main/java/com/oi/ReadLargeFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base02-io/target/classes/com/oi/ReadLargeFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-base02-io/target/classes/com/oi/ReadLargeFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-base03-multithread/src/main/java/com/oi/example1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +56,7 @@
   "keyToString": {
     "Application.AnonymousInnerClassThread.executor": "Run",
     "Application.ExecutorServiceThread.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.MyRunnable.executor": "Run",
     "Application.MyThread.executor": "Run",
     "Application.ReadLargeFile.executor": "Run",
@@ -89,7 +83,7 @@
       <recent name="$PROJECT_DIR$/files" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExecutorServiceThread">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="AnonymousInnerClassThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.oi.example1.AnonymousInnerClassThread" />
       <module name="java-base03-multithread" />
@@ -105,6 +99,19 @@
     </configuration>
     <configuration name="ExecutorServiceThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.oi.example1.ExecutorServiceThread" />
+      <module name="java-base03-multithread" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.oi.example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.oi.example1.Main" />
       <module name="java-base03-multithread" />
       <extension name="coverage">
         <pattern>
@@ -142,26 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadLargeFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oi.ReadLargeFile" />
-      <module name="java-base02-io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ExecutorServiceThread" />
         <item itemvalue="Application.AnonymousInnerClassThread" />
         <item itemvalue="Application.MyRunnable" />
         <item itemvalue="Application.MyThread" />
-        <item itemvalue="Application.ReadLargeFile" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +177,7 @@
       <updated>1720663445057</updated>
       <workItem from="1720663446775" duration="1520000" />
       <workItem from="1720668683938" duration="5273000" />
+      <workItem from="1720708542057" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="NewFeature: Java语言基础面试题模块搭建">
       <option name="closed" value="true" />
