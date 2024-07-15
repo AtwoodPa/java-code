@@ -33,4 +33,21 @@ public class UserService {
         int total = userMapper.countUsers();
         return new Page<>(userList, pageNumber, pageSize, total);
     }
+
+    /**
+     * 获取用户列表 - 优化limit实现
+     * @param lastId
+     * @param pageSize
+     * @return
+     */
+    public Page<User> getUsersOptimized(Integer lastId, int pageSize) {
+        List<User> users;
+        if (lastId == null) {
+            users = userMapper.selectUsersOptimized(pageSize);
+        } else {
+            users = userMapper.selectUsersOptimizedAfter(lastId, pageSize);
+        }
+        int totalRecords = userMapper.countUsers();
+        return new Page<>(users, lastId == null ? 1 : -1, pageSize, totalRecords);
+    }
 }
