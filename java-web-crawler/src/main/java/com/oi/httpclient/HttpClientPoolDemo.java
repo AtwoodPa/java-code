@@ -1,6 +1,8 @@
 package com.oi.httpclient;
 
+import com.oi.utils.HttpClientUtil;
 import org.apache.http.HttpEntity;
+import org.apache.http.HttpHost;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -24,11 +26,45 @@ import java.net.URISyntaxException;
  */
 public class HttpClientPoolDemo {
     public static void main(String[] args) {
-        try {
-            poolParams();
-        } catch (URISyntaxException e) {
-            throw new RuntimeException(e);
-        }
+        System.out.println("HttpClientUtil.doGet(\"http://www.baidu.com\") = " + HttpClientUtil.doGet("http://www.baidu.com"));
+//        try {
+//            // poolParams();
+//            setPoolProxy();
+//        } catch (URISyntaxException e) {
+//            throw new RuntimeException(e);
+//        }
+    }
+
+    /**
+     * 创建池，配置代理
+     * 代理网址：http://www.ip3366.net/
+     * @throws URISyntaxException
+     */
+    private static void setPoolProxy() throws URISyntaxException{
+        // 创建连接池
+        PoolingHttpClientConnectionManager connectionManager = new PoolingHttpClientConnectionManager();
+        // 连接池配置
+        // 设置最大连接数
+        connectionManager.setMaxTotal(100);
+        // 设置每个路由的最大连接数
+        connectionManager.setDefaultMaxPerRoute(20);
+
+
+        // 配置连接池中连接的参数
+        RequestConfig config = RequestConfig.custom()
+                .setConnectTimeout(5000)// 发送请求的超时时间
+                .setSocketTimeout(2000)// 从服务器获取响应数据的超时时间
+                .setConnectionRequestTimeout(500)// 从连接池获取连接的超时时间
+                .build();
+
+        // 创建HttpClient
+        CloseableHttpClient client = HttpClients.custom()
+                .setConnectionManager(connectionManager)
+                .setDefaultRequestConfig(config)
+                // 设置代理
+                .setProxy(new HttpHost("121.41.54.26", 80))
+                .build();
+
     }
 
 
