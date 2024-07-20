@@ -65,6 +65,7 @@ public class HttpClientUtil {
         CloseableHttpClient client = getHttpClient();
         // 创建HttpGet请求
         HttpGet get = new HttpGet(url);
+        get.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36");
         CloseableHttpResponse response = null;
         // 发送请求并获取响应
         try {
