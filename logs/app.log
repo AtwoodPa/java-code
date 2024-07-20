@@ -4230,3 +4230,661 @@
 2024-07-20 16:47:02 DEBUG PoolingHttpClientConnectionManager:344 - Connection [id: 1][route: {s}->https://www.sikiedu.com:443] can be kept alive indefinitely
 2024-07-20 16:47:02 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-1: set socket timeout to 0
 2024-07-20 16:47:02 DEBUG PoolingHttpClientConnectionManager:351 - Connection released: [id: 1][route: {s}->https://www.sikiedu.com:443][total available: 2; route allocated: 1 of 20; total allocated: 2 of 100]
+2024-07-20 19:41:40 DEBUG QueueScheduler:36 - push to queue https://github.com/code4craft
+2024-07-20 19:41:40 INFO  Spider:306 - Spider github.com started!
+2024-07-20 19:41:40 WARN  HttpClientDownloader:91 - download page https://github.com/code4craft error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 19:41:40 INFO  Spider:338 - Spider github.com closed! 1 pages downloaded.
+2024-07-20 19:53:29 DEBUG QueueScheduler:36 - push to queue https://github.com/code4craft
+2024-07-20 19:53:29 INFO  Spider:306 - Spider github.com started!
+2024-07-20 19:53:29 WARN  HttpClientDownloader:91 - download page https://github.com/code4craft error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 19:53:29 INFO  Spider:338 - Spider github.com closed! 1 pages downloaded.
+2024-07-20 20:04:36 DEBUG QueueScheduler:36 - push to queue https://github.com/code4craft
+2024-07-20 20:04:36 INFO  Spider:306 - Spider github.com started!
+2024-07-20 20:04:37 WARN  HttpClientDownloader:91 - download page https://github.com/code4craft error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 20:04:37 INFO  Spider:338 - Spider github.com closed! 1 pages downloaded.
+2024-07-20 20:06:33 DEBUG QueueScheduler:36 - push to queue https://github.com/code4craft
+2024-07-20 20:06:33 INFO  Spider:306 - Spider github.com started!
+2024-07-20 20:06:33 WARN  HttpClientDownloader:91 - download page https://github.com/code4craft error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 20:06:33 INFO  Spider:338 - Spider github.com closed! 1 pages downloaded.
+2024-07-20 20:24:10 DEBUG QueueScheduler:36 - push to queue http://www.sikiedu.com/
+2024-07-20 20:24:10 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:24:12 DEBUG CustomRedirectStrategy:142 - Redirect requested to location 'https://www.sikiedu.com/'
+2024-07-20 20:24:12 WARN  HttpClientDownloader:91 - download page http://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 20:24:17 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 20:24:24 DEBUG QueueScheduler:36 - push to queue http://www.sikiedu.com/
+2024-07-20 20:24:24 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:24:24 DEBUG CustomRedirectStrategy:142 - Redirect requested to location 'https://www.sikiedu.com/'
+2024-07-20 20:24:24 WARN  HttpClientDownloader:91 - download page http://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 20:24:29 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 20:24:44 DEBUG QueueScheduler:36 - push to queue https://www.sikiedu.com/
+2024-07-20 20:24:44 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:24:44 WARN  HttpClientDownloader:91 - download page https://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 20:24:49 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 20:25:13 DEBUG QueueScheduler:36 - push to queue https://www.sikiedu.com/
+2024-07-20 20:25:13 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:25:13 WARN  HttpClientDownloader:91 - download page https://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 20:25:18 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 20:26:07 DEBUG QueueScheduler:36 - push to queue http://www.sikiedu.com/
+2024-07-20 20:26:07 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:26:07 DEBUG CustomRedirectStrategy:142 - Redirect requested to location 'https://www.sikiedu.com/'
+2024-07-20 20:26:07 WARN  HttpClientDownloader:91 - download page http://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 20:26:12 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 20:27:18 DEBUG QueueScheduler:36 - push to queue http://www.sikiedu.com/
+2024-07-20 20:27:18 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:27:18 DEBUG CustomRedirectStrategy:142 - Redirect requested to location 'https://www.sikiedu.com/'
+2024-07-20 20:27:18 WARN  HttpClientDownloader:91 - download page http://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 20:27:23 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 20:27:40 DEBUG QueueScheduler:36 - push to queue https://www.sikiedu.com/
+2024-07-20 20:27:40 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:27:40 WARN  HttpClientDownloader:91 - download page https://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 20:27:45 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 20:31:11 DEBUG QueueScheduler:36 - push to queue https://www.sikiedu.com/
+2024-07-20 20:31:11 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:31:11 WARN  HttpClientDownloader:91 - download page https://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at java.base/sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:172)
+	at java.base/sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at java.base/sun.security.ssl.TransportContext.kickstart(TransportContext.java:247)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:448)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-07-20 20:31:16 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 20:31:20 DEBUG QueueScheduler:36 - push to queue https://www.sikiedu.com/
+2024-07-20 20:31:20 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:31:20 WARN  HttpClientDownloader:91 - download page https://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at java.base/sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:172)
+	at java.base/sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at java.base/sun.security.ssl.TransportContext.kickstart(TransportContext.java:247)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:448)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-07-20 20:31:25 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 20:31:35 DEBUG QueueScheduler:36 - push to queue https://www.sikiedu.com/
+2024-07-20 20:31:35 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:31:35 WARN  HttpClientDownloader:91 - download page https://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at java.base/sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:172)
+	at java.base/sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at java.base/sun.security.ssl.TransportContext.kickstart(TransportContext.java:247)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:448)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-07-20 20:31:40 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 20:48:32 DEBUG QueueScheduler:36 - push to queue https://www.sikiedu.com/
+2024-07-20 20:48:32 INFO  Spider:306 - Spider www.sikiedu.com started!
+2024-07-20 20:48:33 WARN  HttpClientDownloader:91 - download page https://www.sikiedu.com/ error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 20:48:38 INFO  Spider:338 - Spider www.sikiedu.com closed! 1 pages downloaded.
+2024-07-20 21:11:48 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:11:48 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:11:54 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:11:54 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:11:59 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:12:16 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:12:16 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:12:18 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:12:18 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:12:23 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:12:48 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:12:48 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:12:48 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:12:48 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:12:54 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:13:25 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:13:25 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:13:25 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:13:25 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:13:30 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:14:03 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:14:03 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:14:04 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:14:04 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:14:09 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:14:58 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:14:58 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:14:59 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:14:59 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:15:04 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:17:18 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:17:18 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:17:18 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:17:18 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:17:23 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:18:13 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:18:13 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:18:14 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:18:14 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:18:19 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:18:33 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:18:33 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:18:33 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:18:33 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:18:39 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:44:54 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:44:54 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:44:55 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:44:55 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:45:00 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:45:26 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:45:26 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:45:27 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:45:27 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:45:32 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:46:58 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:46:58 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:46:59 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:46:59 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:46:59 ERROR Spider:324 - process request Request{url='http://www.ip3366.net/', method='null', extras=null, priority=0, headers={}, cookies={}} error
+java.lang.UnsupportedOperationException: Links can not apply to plain text. Please check whether you use a previous xpath with attribute select (/@href etc).
+	at us.codecraft.webmagic.selector.PlainText.links(PlainText.java:52)
+	at com.oi.process.TestPageProcessor.process(TestPageProcessor.java:32)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 21:46:59 INFO  Spider:338 - Spider www.ip3366.net closed! 1 pages downloaded.
+2024-07-20 21:47:53 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/
+2024-07-20 21:47:54 INFO  Spider:306 - Spider www.ip3366.net started!
+2024-07-20 21:47:54 DEBUG CharsetUtils:56 - Auto get charset: gb2312
+2024-07-20 21:47:54 INFO  HttpClientDownloader:88 - downloading page success http://www.ip3366.net/
+2024-07-20 21:47:54 DEBUG QueueScheduler:36 - push to queue http://www.ip3366.net/[]
+2024-07-20 21:47:59 ERROR Spider:324 - process request Request{url='http://www.ip3366.net/[]', method='null', extras=null, priority=0, headers={}, cookies={}} error
+java.lang.IllegalArgumentException: Illegal character in path at index 22: http://www.ip3366.net/[]
+	at java.net.URI.create(URI.java:852)
+	at org.apache.http.client.methods.RequestBuilder.setUri(RequestBuilder.java:347)
+	at us.codecraft.webmagic.downloader.HttpUriRequestConverter.convertHttpUriRequest(HttpUriRequestConverter.java:61)
+	at us.codecraft.webmagic.downloader.HttpUriRequestConverter.convert(HttpUriRequestConverter.java:36)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:82)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.URISyntaxException: Illegal character in path at index 22: http://www.ip3366.net/[]
+	at java.net.URI$Parser.fail(URI.java:2873)
+	at java.net.URI$Parser.checkChars(URI.java:3046)
+	at java.net.URI$Parser.parseHierarchical(URI.java:3130)
+	at java.net.URI$Parser.parse(URI.java:3078)
+	at java.net.URI.<init>(URI.java:588)
+	at java.net.URI.create(URI.java:850)
+	... 11 more
+2024-07-20 21:47:59 INFO  Spider:338 - Spider www.ip3366.net closed! 2 pages downloaded.
+2024-07-20 22:04:45 DEBUG QueueScheduler:36 - push to queue https://www.baidu.com/s?wd=webmagic
+2024-07-20 22:04:45 INFO  Spider:306 - Spider www.baidu.com started!
+2024-07-20 22:04:45 WARN  HttpClientDownloader:91 - download page https://www.baidu.com/s?wd=webmagic error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 22:04:46 INFO  Spider:338 - Spider www.baidu.com closed! 1 pages downloaded.
+2024-07-20 22:05:21 DEBUG QueueScheduler:36 - push to queue https://www.baidu.com/s?wd=webmagic
+2024-07-20 22:05:21 INFO  Spider:306 - Spider www.baidu.com started!
+2024-07-20 22:05:21 WARN  HttpClientDownloader:91 - download page https://www.baidu.com/s?wd=webmagic error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 22:05:22 INFO  Spider:338 - Spider www.baidu.com closed! 1 pages downloaded.
+2024-07-20 22:06:03 DEBUG QueueScheduler:36 - push to queue https://www.baidu.com/s?wd=Webmagic
+2024-07-20 22:06:03 INFO  Spider:306 - Spider www.baidu.com started!
+2024-07-20 22:06:03 WARN  HttpClientDownloader:91 - download page https://www.baidu.com/s?wd=Webmagic error
+javax.net.ssl.SSLHandshakeException: No appropriate protocol (protocol is disabled or cipher suites are inappropriate)
+	at sun.security.ssl.HandshakeContext.<init>(HandshakeContext.java:171)
+	at sun.security.ssl.ClientHandshakeContext.<init>(ClientHandshakeContext.java:103)
+	at sun.security.ssl.TransportContext.kickstart(TransportContext.java:227)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:437)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:415)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+2024-07-20 22:06:04 INFO  Spider:338 - Spider www.baidu.com closed! 1 pages downloaded.
+2024-07-20 22:30:20 DEBUG QueueScheduler:36 - push to queue http://www.baidu.com
+2024-07-20 22:30:20 INFO  Spider:306 - Spider www.baidu.com started!
+2024-07-20 22:30:20 WARN  HttpClientDownloader:91 - download page http://www.baidu.com error
+org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:8888 [/127.0.0.1] failed: Connection refused (Connection refused)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:388)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at us.codecraft.webmagic.downloader.HttpClientDownloader.download(HttpClientDownloader.java:85)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:404)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:613)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 16 more
+2024-07-20 22:30:21 INFO  Spider:338 - Spider www.baidu.com closed! 1 pages downloaded.
