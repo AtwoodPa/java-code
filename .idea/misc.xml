@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/java-base02-io/pom.xml" />
         <option value="$PROJECT_DIR$/java-base03-multithread/pom.xml" />
         <option value="$PROJECT_DIR$/java-base04-jvm/pom.xml" />
+        <option value="$PROJECT_DIR$/boot-excel/pom.xml" />
       </list>
     </option>
   </component>
