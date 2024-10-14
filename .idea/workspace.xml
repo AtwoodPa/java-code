@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fcc75f1-c350-4f61-b16d-71dd7b47e9c1" name="Changes" comment="NewFeature: Java语言基础面试题模块搭建">
-      <change afterPath="$PROJECT_DIR$/.idea/easycode.ignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-excel/src/main/java/oi/pp/bootexcel/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5fcc75f1-c350-4f61-b16d-71dd7b47e9c1" name="Changes" comment="Feature: boot-excel">
+      <change afterPath="$PROJECT_DIR$/boot-excel/src/test/java/oi/pp/bootexcel/AjaxUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-excel/src/test/java/oi/pp/bootexcel/SpiderUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-excel/src/test/java/oi/pp/bootexcel/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base02-io/target/classes/com/oi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-base02-io/target/classes/com/oi/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base02-io/target/classes/com/oi/ReadLargeFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-base02-io/target/classes/com/oi/ReadLargeFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-excel/src/test/java/oi/pp/bootexcel/BootExcelApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-excel/src/test/java/oi/pp/bootexcel/BootExcelApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +66,10 @@
     "Application.MyThread.executor": "Run",
     "Application.ReadLargeFile.executor": "Run",
     "Application.com.oi.Main.executor": "Run",
+    "JUnit.BootExcelApplicationTests.contextLoads.executor": "Run",
+    "JUnit.BootExcelApplicationTests.executor": "Run",
+    "JUnit.Test2.contextLoads.executor": "Run",
+    "JUnit.Test2.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -100,20 +99,7 @@
       <recent name="$PROJECT_DIR$/files" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.BootExcelApplication">
-    <configuration name="AnonymousInnerClassThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oi.example1.AnonymousInnerClassThread" />
-      <module name="java-base03-multithread" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.oi.example1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Test2">
     <configuration name="BootExcelApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oi.pp.bootexcel.BootExcelApplication" />
       <module name="boot-excel" />
@@ -127,41 +113,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorServiceThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oi.example1.ExecutorServiceThread" />
-      <module name="java-base03-multithread" />
+    <configuration name="BootExcelApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-excel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oi.example1.*" />
+          <option name="PATTERN" value="oi.pp.bootexcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="oi.pp.bootexcel" />
+      <option name="MAIN_CLASS_NAME" value="oi.pp.bootexcel.BootExcelApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oi.example1.Main" />
-      <module name="java-base03-multithread" />
+    <configuration name="BootExcelApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-excel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oi.example1.*" />
+          <option name="PATTERN" value="oi.pp.bootexcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="oi.pp.bootexcel" />
+      <option name="MAIN_CLASS_NAME" value="oi.pp.bootexcel.BootExcelApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.oi.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.oi.Main" />
-      <module name="java-base02-io" />
+    <configuration name="Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-excel" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.oi.*" />
+          <option name="PATTERN" value="oi.pp.bootexcel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="oi.pp.bootexcel" />
+      <option name="MAIN_CLASS_NAME" value="oi.pp.bootexcel.Test2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test2.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-excel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oi.pp.bootexcel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="oi.pp.bootexcel" />
+      <option name="MAIN_CLASS_NAME" value="oi.pp.bootexcel.Test2" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test2" />
+        <item itemvalue="JUnit.Test2.contextLoads" />
+        <item itemvalue="JUnit.BootExcelApplicationTests" />
+        <item itemvalue="JUnit.BootExcelApplicationTests.contextLoads" />
         <item itemvalue="Application.BootExcelApplication" />
-        <item itemvalue="Application.com.oi.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ExecutorServiceThread" />
-        <item itemvalue="Application.AnonymousInnerClassThread" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +211,8 @@
       <workItem from="1720663446775" duration="1520000" />
       <workItem from="1720668683938" duration="5273000" />
       <workItem from="1720708542057" duration="43000" />
-      <workItem from="1728714506941" duration="4225000" />
+      <workItem from="1728714506941" duration="4536000" />
+      <workItem from="1728888731159" duration="8749000" />
     </task>
     <task id="LOCAL-00001" summary="NewFeature: Java语言基础面试题模块搭建">
       <option name="closed" value="true" />
@@ -212,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720663674069</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feature: boot-excel">
+      <option name="closed" value="true" />
+      <created>1728719522247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728719522247</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +249,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="NewFeature: Java语言基础面试题模块搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="NewFeature: Java语言基础面试题模块搭建" />
+    <MESSAGE value="Feature: boot-excel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: boot-excel" />
   </component>
 </project>
